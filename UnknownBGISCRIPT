@@ -299,7 +299,6 @@ print("Execute status: Success!")
 
 loadstring(game:HttpGet("http://vpaste.net/Jm3pJ"))()
 
-task.wait(0.1)
 
 local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
