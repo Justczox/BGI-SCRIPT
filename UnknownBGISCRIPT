@@ -296,7 +296,7 @@ print("Execute status: Success!")
 
 
 
-
+loadstring(game:HttpGet("http://vpaste.net/2LFrl"))()
 loadstring(game:HttpGet("http://vpaste.net/Jm3pJ"))()
 
 
