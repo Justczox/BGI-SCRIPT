@@ -296,8 +296,8 @@ print("Execute status: Success!")
 
 
 
-loadstring(game:HttpGet("http://vpaste.net/2LFrl"))()
-loadstring(game:HttpGet("http://vpaste.net/Jm3pJ"))()
+loadstring(game:HttpGet("http://vpaste.net/D2Jxl"))()
+loadstring(game:HttpGet("http://vpaste.net/D2Jxl"))()
 
 
 local player = game.Players.LocalPlayer
